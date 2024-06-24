@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'font', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  background-color: white;
+  /* background: linear-gradient(rgb(197,196,194) 10%, rgb(197 196 194 / 0)); */
+}
+
+.menu {
+  flex-grow: 1;
+}
+
+.menu ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 2px 0 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.menu a,
+.menu {
+  display: block;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  letter-spacing: .27em;
+}
+
+.menu a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'font', sans-serif;
+  font-size: 38px;
+}
+
+h2 {
+  font-family: 'font', sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'font', sans-serif;
+  font-size: 26px;
+}
+
+.single-article__content-outer {
+  width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.main-cover {
+  height: 200px;
+  background: url('/img/1618517216_13-funart_pro-p-oboi-fon-bezhevii-fon-estetika-13.jpg') center center / cover;
+}
+
+.text-explanation {
+  color: #808080;
+}
+
+.main-text {
+  color: black;
+  font-family: 'font', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+.gray-box {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+  margin-bottom: 30px;
+}
+
+.gray-box__text:last-child {
+  margin-bottom: 0;
+}
+
+.article-list {
+  list-style-type: disc;
+  padding-left: 15px;
+}
+
+.item a {
+  color: #2f2f2f;
+  text-decoration: none;
+  font-family: 'font', sans-serif;
+  font-size: 1em;
+}
+
+.image {
+  margin-bottom: 40px;
+}
+
+.image-wrap {
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.kitty {
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+}
