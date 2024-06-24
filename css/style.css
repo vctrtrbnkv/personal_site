@@ -79,7 +79,7 @@ h2 {
 
 .main-cover {
   height: 200px;
-  background: url('/img/palma_listia_minimalizm_156527_1920x1080.jpg') center center / cover;
+  background: url('/personal_site/img/palma_listia_minimalizm_156527_1920x1080.jpg') center center / cover;
 }
 
 
@@ -95,7 +95,7 @@ h2 {
 .summary-content__photo-container {
   width: 300px;
   flex-shrink: 0;
-  background: url(/img/IMG_3468.JPG) center center / cover;
+  background: url('/personal_site/img/IMG_3468.JPG') center center / cover;
 }
 
 .summary-content__text {
@@ -174,12 +174,12 @@ h2 {
 
 .article-card__cover1 {
   height: 180px;
-  background: url('/img/1618517216_13-funart_pro-p-oboi-fon-bezhevii-fon-estetika-13.jpg') center center / cover;
+  background: url('/personal_site/img/1618517216_13-funart_pro-p-oboi-fon-bezhevii-fon-estetika-13.jpg') center center / cover;
 }
 
 .article-card__cover2 {
   height: 180px;
-  background: url('/img/1677875324_klau-club-p-pole-s-tsvetami-estetika-krasivo-75.jpg') center center / cover;
+  background: url('/personal_site/img/1677875324_klau-club-p-pole-s-tsvetami-estetika-krasivo-75.jpg') center center / cover;
 }
 
 .article-card__heading {
